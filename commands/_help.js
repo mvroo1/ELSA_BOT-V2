@@ -1,5 +1,3 @@
-//تم تطوير هذا الملف بواسطه الجزار وايتاتشي
-
 const os = require('os')
 const moment = require("moment-timezone")
 const fs = require("fs")
