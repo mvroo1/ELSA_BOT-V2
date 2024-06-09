@@ -1,4 +1,4 @@
-<img alt="X-2.0" height="300" src="[[https://drive.google.com/file/d/1KXq9v43rwOWdWVC7o5qCRIV3WXpiJ4ja/view?usp=drivesdk]()]()">
+<img alt="X-2.0" height="300" src="https://telegra.ph/file/24bb9841a79d8b45e8441.jpg">
 
 <div align="center">
     ⏬<b>ELSA BOT MD</b>⏬</b>
