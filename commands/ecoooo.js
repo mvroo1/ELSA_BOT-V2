@@ -1,3 +1,4 @@
+
 //تم تطوير هذا الملف بواسطه الجزار وايتاتشي
 
 const { sck,sck1,cmd, getBuffer, tlang,sleep,getAdmin, prefix } = require('../lib')
@@ -77,7 +78,7 @@ str+= `ـ *${i+1}* \n╮─────────────ـ\n│ *֎╎ا�
          const secktor = "secktor"
          const balance = await eco.balance(citel.sender, secktor); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
          return await citel.reply(`⌬━─━｢❄️｣━─━⌬
-↫ ⟦ بـنـك الـسـا  ⟧
+↫ ⟦ بـنـك جـاك ⟧
              
 ❀ ╎رصـيـدك 💰 ⟦ ${balance.wallet} بيلي ⟧
 ⌬━─━｢❄️｣━─━⌬`)
