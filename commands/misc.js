@@ -330,7 +330,7 @@ const vcard = 'BEGIN:VCARD\n' +
              filename: __filename,
          },
          async(Void, citel, text) => {
-             if (!text) return citel.reply(`*֎╎مـثـال┇.عـكـس الـسـا*`)
+             if (!text) return citel.reply(`*֎╎مـثـال┇.عـكـس جـاك*`)
              flipe = text.split('').reverse().join('')
              citel.reply(`\`\`\`*〖عـكـس الـكـلـمـات〗*\`\`\`\n*֎╎الـكـلـمـه الاصـلـيـه┇* \n${text}\n*֎╎الـكـلـمـه الـمـعـكـوسـه┇* \n${flipe}`)
  
