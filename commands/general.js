@@ -14,13 +14,13 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://youtube.com/@ABDALLAH_MOHAMED')
+        let { data } = await axios.get('https://wa.me/201208306317')
         let cap = `هـاي ${citel.pushName}\n
-*❄️⃝🧚‍♀️ 𒆜𝑬𝑳𝑺𝑨 𝑩𝑶𝑻𒆜♦️*
+*❄️⃝🧚‍♀️ 𒆜𝐽𝐴𝐶𝐾 𝑩𝑶𝑻𒆜♦️*
 
 *❄️⃝🧚‍♀️ 〘الـيـك فـروع مـجـتـمـعـنـا〙*
 
-*❄️⃝🧚‍♀️ الـفـرع الاول https://chat.whatsapp.com/D2q8dnfUwbL83Tz79bGEK*
+*❄️⃝🧚‍♀️ الـفـرع الاول https://chat.whatsapp.com/B8eSVHOjh1Y9V8Kbjqbyez*
 
 *❄️⃝🧚‍♀️ الـفـرع الـثـانـي قـريـبـا...*`
         let buttonMessaged = {
@@ -63,7 +63,7 @@ cmd({
 *❄️⃝🧚‍♀️مـده الـتـشـغـيـل⏱┇ ${runtime(process.uptime())}*
 *❄️⃝🧚‍♀️ الاصـدار📡┇ V1*
 *❄️⃝🧚‍♀️ الـمـطـوريـن👤┇ ${Config.ownername}*
-*❄️⃝🧚‍♀️ اسـم الـبـوتـه🤖┇ ${tlang().title}*
+*❄️⃝🧚‍♀️ اسـم الـبـوت🤖┇ ${tlang().title}*
 °୭̥ ❁ ───────────────────────── .°୭̥ ❁ `;
         let buttonMessaged = {
             image: {
@@ -101,7 +101,7 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*جميع ثيمات بوته السا ELSA *"
+let str="*جميع ثيمات بوته جاك JACK *"
 str+=`1. ELSA\_Reply ${prefix}الثيم THEME:ELSA`
 return citel.reply(str)
     
