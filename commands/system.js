@@ -140,13 +140,13 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
-            alias :['بوت','السا'],
+            alias :['بوت'‚'جاك'],
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `بـوتـه الـسـا بـالـخـدمـه`
+            let alivemessage = Config.ALIVE_MESSAGE || `بـوت جـاك بـالـخـدمـه`
             const alivtxt = `
 *❄️⃝🧚‍♀️مـرحـبـا┇ ${citel.pushName}*
 *❄️⃝🧚‍♀️انــا┇ ${tlang().title}*
