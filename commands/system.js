@@ -140,26 +140,26 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
-            alias :['بوت'‚'جاك'],
+            alias :['بوت'‚'مارو'],
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `بـوت جـاك بـالـخـدمـه`
+            let alivemessage = Config.ALIVE_MESSAGE || `بـوت مـارو بـالـخـدمـه`
             const alivtxt = `
-*❄️⃝🧚‍♀️مـرحـبـا┇ ${citel.pushName}*
-*❄️⃝🧚‍♀️انــا┇ ${tlang().title}*
+*🧛🏻‍♂️⃝🇪🇬مـرحـبـا┇ ${citel.pushName}*
+*🧛🏻‍♂️⃝🇪🇬انــا┇ ${tlang().title}*
 ${alivemessage}
-*❋─═━•┇❄️┇•━═─❋*
-*❄️⃝🧚‍♀️الاصـدار┇ v1*
-*❄️⃝🧚‍♀️مـده الـتـشـغـيـل┇ ${runtime(process.uptime())}*
-*❄️⃝🧚‍♀️الـمـطـور┇ ${Config.ownername}_
-*❄️⃝🧚‍♀️الـفـرع┇ ${Config.BRANCH}*
-*❋─═━•┇❄️┇•━═─❋*
-*❄️⃝🧚‍♀️اكـتـب .الاوامر لـظـهـور اوامـر الـبـوت*
+*❋─═━•┇🧛🏻‍♂️┇•━═─❋*
+*🧛🏻‍♂️⃝🇪🇬الاصـدار┇ v1*
+*🧛🏻‍♂️⃝🇪🇬مـده الـتـشـغـيـل┇ ${runtime(process.uptime())}*
+*🧛🏻‍♂️⃝🇪🇬الـمـطـور┇ ${Config.ownername}_
+*🧛🏻‍♂️⃝🇪🇬الـفـرع┇ ${Config.BRANCH}*
+*❋─═━•┇🧛🏻‍♂️┇•━═─❋*
+*🧛🏻‍♂️⃝🇪🇬اكـتـب .الاوامر لـظـهـور اوامـر الـبـوت*
 
-*❄️⃝🧚‍♀️صـنـع بـواسـطـه┇ ${Config.ownername}*
+*🧛🏻‍♂️⃝🇪🇬صـنـع بـواسـطـه┇ ${Config.ownername}*
 `;
             let aliveMessage = {
                 image: {
@@ -186,7 +186,7 @@ cmd({
         const { tlang } = require('../lib')
         if (!isCreator) return citel.reply(tlang().owner)
         const note_store = new Array()
-        let leadtext = `*❄️⃝🧚‍♀️كـل مـلاحـظـاتـك هـنـا📝┇*\n\n`
+        let leadtext = `*🧛🏻‍♂️⃝🇪🇬كـل مـلاحـظـاتـك هـنـا📝┇*\n\n`
         leadtext += await allnotes()
         return citel.reply(leadtext)
 
