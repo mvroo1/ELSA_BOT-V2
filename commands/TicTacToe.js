@@ -77,8 +77,8 @@ cmd(
           }[v];
         });
         let str = `
-*❄️⃝🧚‍♀️دورك┇* @${room.game.currentTurn.split("@")[0]}
-*❄️⃝🧚‍♀️ايـدي الـغـرفـه┇* ${room.id}
+*🧛🏻‍♂️⃝🇪🇬دورك┇* @${room.game.currentTurn.split("@")[0]}
+*🧛🏻‍♂️⃝🇪🇬ايـدي الـغـرفـه┇* ${room.id}
 ${arr.slice(0, 3).join("  ")}
 ${arr.slice(3, 6).join("  ")}
 ${arr.slice(6).join("  ")}
@@ -172,7 +172,7 @@ cmd(
         isWin = true;
       }
       let winner = isSurrender ? room.game.currentTurn : room.game.winner;
-      let str = `*❄️⃝🧚‍♀️يـدي الـغـرفـه┇* ${room.id}
+      let str = `*🧛🏻‍♂️⃝🇪🇬يـدي الـغـرفـه┇* ${room.id}
       
 ${arr.slice(0, 3).join("  ")}
 ${arr.slice(3, 6).join("  ")}
@@ -181,13 +181,13 @@ ${
   isWin
     ? `@${winner.split("@")[0]} فاز/ت 🎖️`
     : isTie
-    ? `*❄️⃝🧚‍♀️تـعـادل ، كـفـو لـثـنـيـن 👏*`
-    : `*❄️⃝🧚‍♀️دورك┇* ${["❌", "⭕"][1 * room.game._currentTurn]} @${
+    ? `*🧛🏻‍♂️⃝🇪🇬تـعـادل ، كـفـو لـثـنـيـن 👏*`
+    : `*🧛🏻‍♂️⃝🇪🇬دورك┇* ${["❌", "⭕"][1 * room.game._currentTurn]} @${
         room.game.currentTurn.split("@")[0]
       }`
 }
-*❄️⃝🧚‍♀️الـلاعـب الاول❌┇* @${room.game.playerO.split("@")[0]}
-*❄️⃝🧚‍♀️الـلاعـب الـثـانـي⭕┇* @${room.game.playerX.split("@")[0]}`;
+*🧛🏻‍♂️⃝🇪🇬الـلاعـب الاول❌┇* @${room.game.playerO.split("@")[0]}
+*🧛🏻‍♂️⃝🇪🇬الـلاعـب الـثـانـي⭕┇* @${room.game.playerX.split("@")[0]}`;
 
       if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== citel.chat)
         room[room.game._currentTurn ^ isSurrender ? "x" : "o"] = citel.chat;
