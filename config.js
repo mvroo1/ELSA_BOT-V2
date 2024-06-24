@@ -15,12 +15,12 @@ global.devs = '201208386317';
 global.website = 'https://chat.whatsapp.com/B8eSVHOjh1Y9V8Kbjqbyez' //wa.me/+25000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ab4018d27c9929dc12595.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? '*『❄️┇❆ 𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 ❆┇❄️』*' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? '𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '*『🧛🏻‍♂️┇❆ 𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 ❆┇🧛🏻‍♂️』*' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '*『❄️┇❆ 𝐽𝐴𝐶𝐾 𝐵𝑂𝑇-𝑀𝐷 ❆┇❄️』*' : process.env.PACK_INFO.split(";")[0],
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '*『🧛🏻‍♂️┇❆ 𝑀𝑉𝑅𝑂 𝐵𝑂𝑇-𝑀𝐷 ❆┇🧛🏻‍♂️』*' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
