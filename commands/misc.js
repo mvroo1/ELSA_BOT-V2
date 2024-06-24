@@ -96,9 +96,9 @@ async(Void, citel, text,{ isCreator }) => {
         try {
             const data = await Void.fetchBlocklist();
             if (data.length === 0) return await citel.reply(`*֎╎لا يـوجـد اي ارقـام مـحـظـوره*`);
-            let txt = `\n*〖قـائـمـه الـمـحـظـوريـن〗*\n\n*֎╎عـدد الـمـحـظـوريـن┇* ${data.length}\n\n┓─━═║✠║◦¦❄️¦◦║✠║═━─┏\n`;
+            let txt = `\n*〖قـائـمـه الـمـحـظـوريـن〗*\n\n*֎╎عـدد الـمـحـظـوريـن┇* ${data.length}\n\n┓─━═║✠║◦¦🧛🏻‍♂️¦◦║✠║═━─┏\n`;
             for (let i = 0; i < data.length; i++) {      txt += `֎╎ ${i + 1}┇ wa.me/${data[i].split("@")[0]}\n`;    }
-            txt += "┛─━═║✠║◦¦❄️¦◦║✠║═━─┗";
+            txt += "┛─━═║✠║◦¦🧛🏻‍♂️¦◦║✠║═━─┗";
             return await Void.sendMessage(citel.chat, { text: txt });
           } catch (err) {
             console.error(err);
@@ -202,7 +202,7 @@ async(Void, citel, text) => {
          async(Void, citel, text) => {
 
 if (!citel.quoted) return citel.reply (`*֎╎رد عـلـي رسـالـه شـخـص واكـتـب اسـم*`);
-if ( !text ) return citel.reply( `*֎╎رد عـلـي رسـالـه شـخـص واكـتـب اسـم مـثـال┇.كونكت ELSA*`)
+if ( !text ) return citel.reply( `*֎╎رد عـلـي رسـالـه شـخـص واكـتـب اسـم مـثـال┇.كونكت MVRO*`)
 var words = text.split(" ");
 if (words.length >3) {   text= words.slice(0, 3).join(' ')  }
 // citel.reply(text);
@@ -238,11 +238,11 @@ const vcard = 'BEGIN:VCARD\n' +
              var author;
              if (text) {
                  anu = text.split("|");
-                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '𝐸𝐿𝑆𝐴 𝐵𝑂𝑇-𝑀𝐷';
+                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '𝑀𝑉𝑅𝑂 𝐵𝑂𝑇-𝑀𝐷';
                  author = anu[1] !== "" ? anu[1] : Config.author;
              } else {
                  pack = citel.pushName;
-                 author = "𝐸𝐿𝑆𝐴 𝐵𝑂𝑇-𝑀𝐷";
+                 author = "𝑀𝑉𝑅𝑂 𝐵𝑂𝑇-𝑀𝐷";
              }
                  let media = await citel.quoted.download();
                  citel.reply("*֎╎لـحـظـه بـرسـلـك الـمـلـصـق...*");
