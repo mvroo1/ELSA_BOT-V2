@@ -77,11 +77,11 @@ str+= `ـ *${i+1}* \n╮─────────────ـ\n│ *֎╎ا�
         if (mongoschemas == "false") return citel.reply("*🚦البنك لا يـــعـــمل*");
          const secktor = "secktor"
          const balance = await eco.balance(citel.sender, secktor); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
-         return await citel.reply(`⌬━─━｢❄️｣━─━⌬
-↫ ⟦ بـنـك جـاك ⟧
+         return await citel.reply(`⌬━─━｢🧛🏻‍♂️｣━─━⌬
+↫ ⟦ بـنـك مـارو ⟧
              
 ❀ ╎رصـيـدك 💰 ⟦ ${balance.wallet} بيلي ⟧
-⌬━─━｢❄️｣━─━⌬`)
+⌬━─━｢🧛🏻‍♂️｣━─━⌬`)
      
      }
    )
