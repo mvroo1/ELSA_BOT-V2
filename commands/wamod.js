@@ -42,7 +42,7 @@ cmd({
                 },
 
                 caption: `
-*👑 𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑*
+*👑 𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑*
 
 💓هـلا ${citel.pushName}💓
 
@@ -56,7 +56,7 @@ cmd({
 *${prefix}4.3┃ YOWhatsapp*
 
 
-*👑 𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑*`,
+*👑 𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑*`,
 
                 footer: tlang().footer,
                 headerType: 4,
@@ -86,7 +86,7 @@ cmd(
                     document: { url: wamod.result.com_whatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_whatsapp.name,
-                    caption: '👑 *𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑*'
+                    caption: '👑 *𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑*'
                 },
                 { quoted: citel }
             );
@@ -117,7 +117,7 @@ cmd(
                     document: { url: wamod.result.com_fmwhatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_fmwhatsapp.name,
-                    caption: '👑 *𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑*'
+                    caption: '👑 *𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑*'
                 },
                 { quoted: citel }
             );
@@ -148,7 +148,7 @@ cmd(
                     document: { url: wamod.result.com_gbwhatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_gbwhatsapp.name,
-                    caption: '👑 *𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑*'
+                    caption: '👑 *𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑*'
                 },
                 { quoted: citel }
             );
@@ -179,7 +179,7 @@ cmd(
                     document: { url: wamod.result.com_yowhatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_yowhatsapp.name,
-                    caption: '👑 *𝐉𝐀𝐂𝐊 𝐀𝐋𝐊𝐁𝐄𝐑 👑*'
+                    caption: '👑 *𝙼𝚅𝚁𝙾 𝙱𝙾𝚃 👑*'
                 },
                 { quoted: citel }
             );
